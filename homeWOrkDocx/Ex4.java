@@ -2,7 +2,7 @@ package homeWOrkDocx;
 
 public class Ex4 {
 
-	
+	public static void main(String[] args) {	
 		String MyUserId = "nik";
 		String MyPassword = "abc123";
 		String userid = "nik";
@@ -16,8 +16,7 @@ public class Ex4 {
 		System.out.println("Authentication Failed!");
 		}
 		
-			
-		}
+		
 		
 		
 			
@@ -25,8 +24,8 @@ public class Ex4 {
 
 		public static boolean Authorization(String a  , String b , String c , String d) {
 			if((a.equals(c) && b.equals(d))) return true; 
-			else 
-		{ return false;
+			else return false;
+			
 			
 				
 		}
