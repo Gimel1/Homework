@@ -5,7 +5,10 @@ public class Ex4 {
 	
 		String MyUserId = "nik";
 		String MyPassword = "abc123";
-		boolean i = Authorization(MyUserId , MyPassword);
+		String userid = "nik";
+		String password = "abc123";
+		
+		boolean i = Authorization(MyUserId , MyPassword , userid , password);
 		
 		if(i==true) {
 		System.out.println("Authentication Passed!");
@@ -20,12 +23,8 @@ public class Ex4 {
 			
 		
 
-		public static boolean Authorization(String userid  , String password) {
-			String userid;
-			String password;
-			userid = "nik";
-			password = "abc123";
-			if((userid.equals(MyUserId) && password.equals(MyPassword))) return true; 
+		public static boolean Authorization(String a  , String b , String c , String d) {
+			if((a.equals(c) && b.equals(d))) return true; 
 			else 
 		{ return false;
 			
