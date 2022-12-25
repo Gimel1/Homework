@@ -15,7 +15,7 @@ public class Ex4 {
 		}else {
 		System.out.println("Authentication Failed!");
 		}
-		
+	}
 		
 		
 		
@@ -23,8 +23,8 @@ public class Ex4 {
 		
 
 		public static boolean Authorization(String a  , String b , String c , String d) {
-			if((a.equals(c) && b.equals(d))) return true; 
-			else return false;
+		if((a.equals(c) && b.equals(d))) return true; 
+		else return false;
 			
 			
 				
@@ -33,7 +33,7 @@ public class Ex4 {
 			
 		}
 		
-}
+
 
 	
 
